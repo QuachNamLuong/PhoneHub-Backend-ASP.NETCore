@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PhoneHub.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2780e8237e38ea5c4436e650bf766f091dd1f8b8")]
 [assembly: System.Reflection.AssemblyProductAttribute("PhoneHub.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PhoneHub.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

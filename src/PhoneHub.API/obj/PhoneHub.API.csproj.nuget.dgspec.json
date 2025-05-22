@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\quach\\OneDrive\\Documents\\Projects\\CSharpProject\\PhoneHub\\src\\PhoneHub.API\\PhoneHub.API.csproj": {}
+    "/home/luong/Projects/DotNetProjects/PhoneHub-Backend-ASP.NETCore/src/PhoneHub.API/PhoneHub.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\quach\\OneDrive\\Documents\\Projects\\CSharpProject\\PhoneHub\\src\\PhoneHub.API\\PhoneHub.API.csproj": {
+    "/home/luong/Projects/DotNetProjects/PhoneHub-Backend-ASP.NETCore/src/PhoneHub.API/PhoneHub.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\quach\\OneDrive\\Documents\\Projects\\CSharpProject\\PhoneHub\\src\\PhoneHub.API\\PhoneHub.API.csproj",
+        "projectUniqueName": "/home/luong/Projects/DotNetProjects/PhoneHub-Backend-ASP.NETCore/src/PhoneHub.API/PhoneHub.API.csproj",
         "projectName": "PhoneHub.API",
-        "projectPath": "C:\\Users\\quach\\OneDrive\\Documents\\Projects\\CSharpProject\\PhoneHub\\src\\PhoneHub.API\\PhoneHub.API.csproj",
-        "packagesPath": "C:\\Users\\quach\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\quach\\OneDrive\\Documents\\Projects\\CSharpProject\\PhoneHub\\src\\PhoneHub.API\\obj\\",
+        "projectPath": "/home/luong/Projects/DotNetProjects/PhoneHub-Backend-ASP.NETCore/src/PhoneHub.API/PhoneHub.API.csproj",
+        "packagesPath": "/home/luong/.nuget/packages/",
+        "outputPath": "/home/luong/Projects/DotNetProjects/PhoneHub-Backend-ASP.NETCore/src/PhoneHub.API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\quach\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/luong/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -32,17 +32,16 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "ErrorOr": {
+              "target": "Package",
+              "version": "[1.10.0, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.15, )"
@@ -56,6 +55,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.15, )"
+            },
+            "Minio": {
+              "target": "Package",
+              "version": "[6.0.4, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -81,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.116/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

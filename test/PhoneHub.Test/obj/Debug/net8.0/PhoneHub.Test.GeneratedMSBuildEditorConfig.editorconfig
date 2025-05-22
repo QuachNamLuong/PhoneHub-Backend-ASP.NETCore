@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PhoneHub.Test
-build_property.ProjectDir = C:\Users\quach\OneDrive\Documents\Projects\CSharpProject\PhoneHub\test\PhoneHub.Test\
+build_property.ProjectDir = /home/luong/Projects/DotNetProjects/PhoneHub-Backend-ASP.NETCore/test/PhoneHub.Test/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
